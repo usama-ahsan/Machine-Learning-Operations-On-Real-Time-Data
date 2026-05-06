@@ -10,8 +10,8 @@ pandas>=2.0.0             # Data manipulation
 requests>=2.31.0          # HTTP requests
 
 # --- Phase 2: Sentiment Analysis ---
-vaderSentiment>=3.3.2     # VADER: fast financial sentiment (Positive/Negative/Neutral)
-textblob>=0.17.1          # TextBlob: alternative sentiment (used for cross-validation)
+vaderSentiment>=3.3.2     # VADER: fast financial sentiment 
+textblob>=0.17.1          
 
 # --- Phase 3: Deep Learning Models ---
 tensorflow>=2.13.0        # RNN, LSTM, GRU model building
