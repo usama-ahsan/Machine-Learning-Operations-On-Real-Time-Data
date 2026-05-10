@@ -6,7 +6,7 @@ def collect_yahoo_finance_data(output_path="data/raw/market_data.csv"):
     print("[INFO] Fetching S&P 500 data...")
     try:
         ticker = yf.Ticker("^GSPC")
-        df = ticker.history(period="60d", interval="15m").reset_index()
+        df = ticker.history(period="2y", interval="1h").reset_index()
         
         if df.empty:
             return pd.DataFrame()
